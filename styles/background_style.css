@@ -15,6 +15,8 @@ body{
 
 .container{
     display: grid;
+    grid-template-columns: 29vw 42vw 29vw;
+    grid-template-rows: 21.5vh 57vh 21.5vh;
 }
 
 
