@@ -34,7 +34,7 @@ body{
 }
 
 .cardLeft{
-    grid-template-columns: 1;
+    grid-column: 1;
 
     background-size: 100%;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body{
 }
 
 .cardRight{
-    grid-template-columns: 2;
+    grid-column: 2;
 
     display: grid;
     grid-template-columns: 21vw;
