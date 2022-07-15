@@ -35,6 +35,10 @@ body{
 
 .cardLeft{
     grid-template-columns: 1;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("/assets/image-product-desktop.jpg");
 }
 
 .cardRight{
