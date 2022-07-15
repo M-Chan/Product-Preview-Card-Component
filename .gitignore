@@ -18,6 +18,7 @@
 
 # Ignore templates, designs and intructions
 design/
+Instructions.md
 style-guide.md
 README-template.md
 README.md
