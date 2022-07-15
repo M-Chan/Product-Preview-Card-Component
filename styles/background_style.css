@@ -19,6 +19,22 @@ body{
     grid-template-rows: 21.5vh 57vh 21.5vh;
 }
 
+.previewCard{
+    grid-column: 2;
+    grid-row: 2;
+
+    display: grid;
+    grid-template-columns: 21vw 21vw;
+}
+
+.cardLeft{
+    grid-template-columns: 1;
+}
+
+.cardRight{
+    grid-template-columns: 2;
+}
+
 
 /* .attribution{
     transform: translateX(-50%);
