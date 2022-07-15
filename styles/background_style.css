@@ -43,8 +43,31 @@ body{
 
 .cardRight{
     grid-template-columns: 2;
+
+    display: grid;
+    grid-template-columns: 21vw;
+    grid-template-rows: auto auto auto auto auto;
 }
 
+.productType{
+    grid-row: 1;
+}
+
+.product{
+    grid-row: 2;
+}
+
+.description{
+    grid-row: 3;
+}
+
+.price{
+    grid-row: 4;
+}
+
+.cartAdd{
+    grid-row: 5;
+}
 
 /* .attribution{
     transform: translateX(-50%);
