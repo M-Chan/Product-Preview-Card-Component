@@ -48,7 +48,7 @@
 
         display: grid;
         grid-template-columns: 21vw;
-        grid-template-rows: 7vh 12vh 18vh 7vh 13vh;
+        grid-template-rows: 7vh 18vh 12vh 7vh 13vh;
     }
 
     .padText{
@@ -65,11 +65,14 @@
 
     .productType{
         grid-row: 1;
+        margin-top: 1vh;
         /* background-color: rgb(255, 221, 0); */
 
         font-family: 'Montserrat', sans-serif;
         font-style: medium;
         font-weight: 500;
+        font-size: 1.8vh;
+        color: hsl(228, 12%, 48%);
     }
 
     .product{
@@ -79,16 +82,27 @@
         font-family: 'Fraunces', serif;
         font-style: bold;
         font-weight: 700;
+        font-size: 4.4vh;
     }
 
     .description{
         grid-row: 3;
         /* background-color: rgb(255, 64, 0); */
+
+        font-family: 'Montserrat', sans-serif;
+        font-style: medium;
+        font-weight: 500;
+        font-size: 1.8vh;
+        color: hsl(228, 12%, 48%);
     }
 
     .price{
         grid-row: 4;
         /* background-color: aqua; */
+    }
+
+    #oldPrice{
+        text-decoration: line-through;
     }
 
     .horizontalCentre{
@@ -110,15 +124,47 @@
         background-color: hsl(158, 36%, 37%);
     }
 
-    /* .addButton{
-        background-color: hsl(158, 36%, 37%);
-    } */
+    .cartIcon{
+        display: block;
+        width: 2vw;
+        height: 2vh;
+        margin-left: 2vw;
+        /* background-color: aqua; */
 
-    /* .attribution{
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-image: url("/assets/icon-cart.svg");
+    }
+
+    .addButton p{
+        display: inline-block;
+
+        font-family: 'Fraunces', serif;
+        font-style: bold;
+        font-weight: 700;
+        font-size: 2vh;
+        color: white;
+    }
+
+    button:hover{
+        cursor: pointer;
+        background-color: #1A4031;
+    }
+
+    
+    .attribution{
         transform: translateX(-50%);
 
         position: absolute;
         bottom: 1vh;
         left: 50%;
-    } */
+
+        font-size: 11px;
+        text-align: center;
+    }
+    .attribution a{
+        color: hsl(228, 45%, 44%);
+    }
+   
+
 }

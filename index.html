@@ -11,15 +11,10 @@
   
   <title>Frontend Mentor | Product preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <div class="container">
-    <div class="previewCard">
+    <div class="previewCard"> 
       <div class="cardLeft cardTop"></div>
 
       <div class="cardRight cardBottom">
@@ -28,7 +23,7 @@
         </div>
 
         <div class="product padText">
-          Gabrielle Essence Eau De Parfum
+          Gabrielle</br>Essence Eau De</br>Parfum
         </div>
 
         <div class="description padText">
@@ -37,14 +32,15 @@
         </div>
 
         <div class="price padText">
-          $149.99
-          $169.99
+          <div id="newPrice">$149.99</div>
+          <div id="oldPrice">$169.99</div>
         </div>
 
         <div class="cartAdd horizontalCentre">
-          <div class="addButton">
-            Add to Cart
-          </div>
+          <button class="addButton">
+            <div class="cartIcon"></div>
+            <p>Add to Cart</p>
+          </button>
         </div>        
       </div>
     </div>
