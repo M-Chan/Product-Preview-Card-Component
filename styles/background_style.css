@@ -136,18 +136,26 @@ body{background-color: hsl(30, 38%, 92%);}
         border: 1px solid white;
         border-radius: 2vh;
         background-color: hsl(158, 36%, 37%);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .cartIcon{
-        display: block;
-        width: 2vw;
-        height: 2vh;
-        margin-left: 2vw;
-        /* background-color: aqua; */
+        display: inline-block;
+        width: 1.2vw;
+        height: 2.6vh;
 
-        background-size: 50%;
+        background-size: 100%;
         background-repeat: no-repeat;
         background-image: url("/assets/icon-cart.svg");
+    }
+
+    #cartText{
+        display: inline-block;
+
+        margin-left: 0.75vw;
     }
 
     .addButton p{
@@ -156,7 +164,7 @@ body{background-color: hsl(30, 38%, 92%);}
         font-family: 'Fraunces', serif;
         font-style: bold;
         font-weight: 700;
-        font-size: 2vh;
+        font-size: 2.2vh;
         color: white;
     }
 
