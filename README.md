@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [NFT-Preview-Card-Component](https://m-chan.github.io/NFT-Preview-Card-Component/)
+- Live Site URL: [Product-Preview-Card-Component](https://m-chan.github.io/Product-Preview-Card-Component/)
 
 
 ---
