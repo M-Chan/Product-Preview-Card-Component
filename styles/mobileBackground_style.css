@@ -26,7 +26,7 @@
     
         background-size: 100%;
         background-repeat: no-repeat;
-        background-image: url("./../assets/image-product-mobile.jpg");
+        background-image: url("./assets/image-product-mobile.jpg");
     }
     
     .cardBottom{

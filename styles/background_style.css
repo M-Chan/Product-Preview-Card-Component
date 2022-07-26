@@ -159,7 +159,7 @@ button:hover{
 
         background-size: 100%;
         background-repeat: no-repeat;
-        background-image: url("./../assets/image-product-desktop.jpg");
+        background-image: url("./assets/image-product-desktop.jpg");
     }
 
     .cardRight{
