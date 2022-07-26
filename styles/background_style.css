@@ -126,7 +126,6 @@ button:hover{
     bottom: 1vh;
     left: 50%;
 
-    font-size: 2vh;
     text-align: center;
 }
 .attribution a{color: hsl(228, 45%, 44%);}
@@ -204,4 +203,6 @@ button:hover{
     }
 
     #cartText{margin-left: 0.75vw;}
+
+    .attribution{font-size: 2vh;}
 }
