@@ -34,7 +34,7 @@
     
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 5vh 16.8vh 16.8vh 5.8vh 13.6vh; /* adds to 58vh */
+        grid-template-rows: 5vh 16.8vh 16.8vh 5.8vh 10vh 5.6vh; /* adds to 60vh */
     }
 
     .padText{
@@ -53,7 +53,6 @@
     
     .description{line-height: 3vh;}
     
-
     #newPrice p{font-size: 4.6vh;}
 
     #oldPrice{margin-left: 4.5vw;}
