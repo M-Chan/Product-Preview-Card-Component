@@ -22,6 +22,7 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
+![Screenshot 2022-07-26 at 11-01-24 Frontend Mentor Product preview card component](https://user-images.githubusercontent.com/81781462/180982271-dbc7a4e3-5a20-454e-8711-5b2070e5e645.png)
 
 
 ### Links
