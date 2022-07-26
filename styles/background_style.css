@@ -69,9 +69,8 @@ body{background-color: hsl(30, 38%, 92%);}
         color: hsl(228, 12%, 48%);
     }
 
-    #essence{display: inline-block;}
-    #eau{display: inline-block;}
-    #parfum{margin-top: -1.2vh;    }
+    #essence, #eau{display: inline-block;}
+    #parfum{margin-top: -1.2vh;}
 
     .product{
         grid-row: 2;
