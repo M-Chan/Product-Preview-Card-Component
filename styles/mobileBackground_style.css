@@ -33,56 +33,65 @@
     
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 5.8vh 13.5vh 13.5vh 11.6vh 13.5vh; /* adds to 57.9vh */
+        grid-template-rows: 9vh 12.8vh 16.8vh 5.8vh 13.5vh; /* adds to 57.9vh */
     }
 
-    /* .padText{
+    .padText{
         margin-top: 0;
         margin-bottom: 0;
-        margin-left: 2vw;
-        margin-right: 2vw;
-    } */
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
     
     .productType{
         grid-row: 1;
-        background-color: #33bd85;
+        /* background-color: #33bd85; */
 
         font-family: 'Montserrat', sans-serif;
         font-style: medium;
         font-weight: 500;
-        /* font-size: 1.95vh; */
+        font-size: 2vh;
         color: hsl(228, 12%, 48%);
     }
     
     .product{
         grid-row: 2;
-        background-color: #e26ab0;
+        /* background-color: #e26ab0; */
 
         font-family: 'Fraunces', serif;
         font-style: bold;
         font-weight: 700;
-        /* font-size: 4.4vh; */
+        font-size: 4.5vh;
+        line-height: 4.5vh;
     }
+
+    #gabrielle{display: inline-block;}
+    #essence{display: inline-block;}
+    #eau{display: inline-block;}
+    #parfum{display: inline-block;}
     
     .description{
         grid-row: 3;
-        background-color: #68a8d3;
+        /* background-color: #68a8d3; */
 
         font-family: 'Montserrat', sans-serif;
         font-style: medium;
         font-weight: 500;
-        /* font-size: 2vh; */
+        font-size: 2vh;
         color: hsl(228, 12%, 48%);
+        line-height: 3vh;
     }
     
     .price{
         grid-row: 4;
-        background-color: #cfe778;
+        /* background-color: #cfe778; */
+
+        display: flex;
+        align-items: center;
     }
     
     .cartAdd{
         grid-row: 5;
-        background-color: #e4a471;
 
         display: flex;
         align-items: center;
@@ -96,17 +105,17 @@
         font-family: 'Fraunces', serif;
         font-style: bold;
         font-weight: 700;
-        /* font-size: 4.4vh; */
+        font-size: 4.6vh;
 
         color: hsl(158, 36%, 37%);
     }
 
-    /* #oldPrice{margin-left: 1.6vw;} */
+    #oldPrice{margin-left: 4.5vw;}
     #oldPrice p{
         font-family: 'Montserrat', sans-serif;
         font-style: medium;
         font-weight: 500;
-        /* font-size: 2vh; */
+        font-size: 2.25vh;
 
         color: hsl(228, 12%, 48%);
         text-decoration: line-through;
@@ -114,7 +123,7 @@
 
 
     .addButton{
-        width: 73vw;
+        width: 74vw;
         height: 7.3vh;
 
         border: 1px solid white;
@@ -157,6 +166,7 @@
 
   
     .attribution{
+        width: 100vw;
         transform: translateX(-50%);
     
         position: absolute;
