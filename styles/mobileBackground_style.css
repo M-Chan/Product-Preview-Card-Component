@@ -18,7 +18,7 @@
     
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 34.1vh 57.9vh; /* adds to 92vh */
+        grid-template-rows: 32vh 60vh; /* adds to 92vh */
     }
 
     .cardTop{
@@ -34,7 +34,7 @@
     
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 9vh 12.8vh 16.8vh 5.8vh 13.5vh; /* adds to 57.9vh */
+        grid-template-rows: 5vh 16.8vh 16.8vh 5.8vh 13.6vh; /* adds to 58vh */
     }
 
     .padText{
