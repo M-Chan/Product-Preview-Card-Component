@@ -4,15 +4,135 @@
     overflow: hidden;
 }
 
+/* fonts below */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap'); /* Montserrat Medium 500 & Bold 700 */
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap'); /* Fraunces Bold 700 */
 
+
+/* in common code for both desktop and mobile versions */
 body{background-color: hsl(30, 38%, 92%);}
 
 .verticalCentre, .horizontalCentre{display: flex;}
 .verticalCentre{align-items: center;}
 .horizontalCentre{justify-content: center;}
 
+
+.padText{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.productType{
+    grid-row: 1;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+#essence, #eau{display: inline-block;}
+
+.product{
+    grid-row: 2;
+
+    font-family: 'Fraunces', serif;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.description{
+    grid-row: 3;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 2vh;
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    grid-row: 4;
+
+    display: flex;
+    align-items: center;
+}
+
+#newPrice, #oldPrice{
+    display: inline-block;
+}
+
+#newPrice p{
+    font-family: 'Fraunces', serif;
+    font-style: bold;
+    font-weight: 700;
+
+    color: hsl(158, 36%, 37%);
+}
+
+#oldPrice p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.cartAdd{
+    grid-row: 5;
+}
+
+.addButton{
+    border: 1px solid white;
+    background-color: hsl(158, 36%, 37%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartIcon{
+    display: inline-block;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icon-cart.svg");
+}
+
+#cartText{display: inline-block;}
+
+.addButton p{
+    display: inline-block;
+
+    font-family: 'Fraunces', serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 2.2vh;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #1A4031;
+}
+
+
+.attribution{
+    width: 100vw;
+    transform: translateX(-50%);
+
+    position: absolute;
+    bottom: 1vh;
+    left: 50%;
+
+    font-size: 2vh;
+    text-align: center;
+}
+.attribution a{color: hsl(228, 45%, 44%);}
+
+
+/* the below is for desktop screens... */
 @media only screen and (min-width: 401px) {
     .container{
         display: grid;
@@ -52,135 +172,36 @@ body{background-color: hsl(30, 38%, 92%);}
     }
 
     .padText{
-        margin-top: 0;
-        margin-bottom: 0;
         margin-left: 2vw;
         margin-right: 2vw;
     }
 
     .productType{
-        grid-row: 1;
         margin-top: 1vh;
 
-        font-family: 'Montserrat', sans-serif;
-        font-style: medium;
-        font-weight: 500;
         font-size: 1.95vh;
-        color: hsl(228, 12%, 48%);
     }
 
-    #essence, #eau{display: inline-block;}
     #parfum{margin-top: -1.2vh;}
 
-    .product{
-        grid-row: 2;
+    .product{font-size: 4.4vh;}
 
-        font-family: 'Fraunces', serif;
-        font-style: bold;
-        font-weight: 700;
-        font-size: 4.4vh;
-    }
-
-    .description{
-        grid-row: 3;
-
-        font-family: 'Montserrat', sans-serif;
-        font-style: medium;
-        font-weight: 500;
-        font-size: 2vh;
-        color: hsl(228, 12%, 48%);
-    }
-
-    .price{
-        grid-row: 4;
-
-        display: flex;
-        align-items: center;
-    }
-
-    #newPrice, #oldPrice{
-        display: inline-block;
-    }
-
-    #newPrice p{
-        font-family: 'Fraunces', serif;
-        font-style: bold;
-        font-weight: 700;
-        font-size: 4.4vh;
-
-        color: hsl(158, 36%, 37%);
-    }
+    #newPrice p{font-size: 4.4vh;}
 
     #oldPrice{margin-left: 1.6vw;}
-    #oldPrice p{
-        font-family: 'Montserrat', sans-serif;
-        font-style: medium;
-        font-weight: 500;
-        font-size: 2vh;
-
-        color: hsl(228, 12%, 48%);
-        text-decoration: line-through;
-    }
-
-    .cartAdd{
-        grid-row: 5;
-    }
+    #oldPrice p{font-size: 2vh;}
 
     .addButton{
         width: 17vw;
         height: 7vh;
-
-        border: 1px solid white;
+       
         border-radius: 2vh;
-        background-color: hsl(158, 36%, 37%);
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .cartIcon{
-        display: inline-block;
         width: 1.2vw;
         height: 2.6vh;
-
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-image: url("/assets/icon-cart.svg");
     }
 
-    #cartText{
-        display: inline-block;
-
-        margin-left: 0.75vw;
-    }
-
-    .addButton p{
-        display: inline-block;
-
-        font-family: 'Fraunces', serif;
-        font-style: bold;
-        font-weight: 700;
-        font-size: 2.2vh;
-        color: white;
-    }
-
-    button:hover{
-        cursor: pointer;
-        background-color: #1A4031;
-    }
-
-  
-    .attribution{
-        transform: translateX(-50%);
-    
-        position: absolute;
-        bottom: 1vh;
-        left: 50%;
-    
-        font-size: 2vh;
-        text-align: center;
-    }
-    
-    .attribution a{color: hsl(228, 45%, 44%);}
+    #cartText{margin-left: 0.75vw;}
 }
