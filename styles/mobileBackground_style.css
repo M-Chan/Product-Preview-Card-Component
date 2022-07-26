@@ -34,7 +34,7 @@
     
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 5vh 16.8vh 16.8vh 5.8vh 10vh 5.6vh; /* adds to 60vh */
+        grid-template-rows: 5vh 16.8vh 16.8vh 5.8vh 8vh 7.6vh; /* adds to 60vh */
     }
 
     .padText{
