@@ -26,7 +26,7 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-productpreviewcardcomponent-using-css-grid-Hvl7nuRsK7)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-productpreviewcardcomponent-using-css-grid-Er9xob5IFt)
 - Live Site URL: [Product-Preview-Card-Component](https://m-chan.github.io/Product-Preview-Card-Component/)
 
 
