@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshots
 <p float="left">
-<img src="https://user-images.githubusercontent.com/81781462/188125569-dc8a02a8-5361-4ed0-869d-85417968946b.png"  alt="Frontend Mentor -  Product Preview Card Component - Desktop" height="350">
-<img src="https://user-images.githubusercontent.com/81781462/188125577-654208b0-d736-4dc0-b47c-6a5101609f57.png"  alt="Frontend Mentor -  Product Preview Card Component - Mobile" height="350" style="display: inline-block">
+<img src="https://user-images.githubusercontent.com/81781462/188125569-dc8a02a8-5361-4ed0-869d-85417968946b.png"  alt="Frontend Mentor -  Product Preview Card Component - Desktop" height="275">
+<img src="https://user-images.githubusercontent.com/81781462/188125577-654208b0-d736-4dc0-b47c-6a5101609f57.png"  alt="Frontend Mentor -  Product Preview Card Component - Mobile" height="275" style="display: inline-block">
 </p>
 <!---
 ![Frontend Mentor -  Product Preview Card Component - Desktop](https://user-images.githubusercontent.com/81781462/188125569-dc8a02a8-5361-4ed0-869d-85417968946b.png)
