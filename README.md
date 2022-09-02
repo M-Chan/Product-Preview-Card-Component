@@ -21,8 +21,15 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
-![Screenshot 2022-07-26 at 11-01-24 Frontend Mentor Product preview card component](https://user-images.githubusercontent.com/81781462/180982271-dbc7a4e3-5a20-454e-8711-5b2070e5e645.png)
+### Screenshots
+<p float="left">
+<img src="https://user-images.githubusercontent.com/81781462/188125569-dc8a02a8-5361-4ed0-869d-85417968946b.png"  alt="Frontend Mentor -  Product Preview Card Component - Desktop" height="350">
+<img src="https://user-images.githubusercontent.com/81781462/188125577-654208b0-d736-4dc0-b47c-6a5101609f57.png"  alt="Frontend Mentor -  Product Preview Card Component - Mobile" height="350" style="display: inline-block">
+</p>
+<!---
+![Frontend Mentor -  Product Preview Card Component - Desktop](https://user-images.githubusercontent.com/81781462/188125569-dc8a02a8-5361-4ed0-869d-85417968946b.png)
+![Frontend Mentor -  Product Preview Card Component - Mobile](https://user-images.githubusercontent.com/81781462/188125577-654208b0-d736-4dc0-b47c-6a5101609f57.png)
+--->
 
 
 ### Links
